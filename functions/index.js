@@ -2,7 +2,7 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 // eslint-disable-next-line max-len
-const stripe = require("stripe")("sk_test_51ICjEmBY2sNTfiHlcs4CVNSZtMnMYmShZu5j3M8CLJAzVuvyLYAzLRKGVDOSInCXs9yY7mTBn05ImycFr4fVKqcY00gOKiv1AL");
+const stripe = require("stripe")("stripe_secret_key");
 
 // App config
 const app = express();
