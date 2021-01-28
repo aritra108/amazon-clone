@@ -9,7 +9,7 @@
 ## Main Features
 1. Single Page Application
 2. User Authentication using Firebase Authetication
-3. Payment Functionality using Stripe 
+3. Payment Functionality using Stripe and Firebase Cloud Functions
 4. Storing Orders of the user using Cloud Firestore
 
 ## Other Features
