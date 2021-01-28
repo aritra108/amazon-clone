@@ -1,5 +1,9 @@
 # Amazon Clone using ReactJS and Firebase 
 
+Deployed Version: [https://clone-ff04b.web.app/]
+
+An attempt to clone the design and some functionalities of the Amazon Website using ReactJS (Hooks, Context API, React Router, etc.) and Firebase (Cloud Firestore, Authentication and Ckloud Functions). A payment functionality is also included using Stripe. Hope you like this noob attempt. :)
+
 ## Technologies Used
 1. HTML
 2. CSS and Media Queries 
