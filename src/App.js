@@ -17,7 +17,7 @@ import ScrollTop from './components/ScrollTop';
 import ScrollRestoration from 'react-scroll-restoration';
 
 
-const promise = loadStripe("pk_test_51ICjEmBY2sNTfiHlky88iLVeM0Ml805SgR84yNpxENy4PQ0C2MOHlAZuYRHl59g2RBSn9SISXdYmneto7Y4t5jBu00sKfJ4guf");
+const promise = loadStripe("stripe_publishable_key");
 
 function App() {
   const [{}, dispatch] = useStateValue();
