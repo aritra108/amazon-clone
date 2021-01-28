@@ -1,0 +1,190 @@
+/* Header Dropdown */
+.header__hamburgerDropdown {
+    position: fixed;
+    top: 0%;
+    left: -80%;
+    width: 80%;
+    max-width: 350px;
+    height: 100%;
+    background-color: white;
+    color: #111;
+    z-index: 4;
+    transition: all 0.3s ease-in-out;
+}
+
+.slideIn {
+    opacity: 1;
+    left: 0%
+}
+
+.slideOut {
+    opacity: 0;
+    left: -80%;
+}
+
+.header__hamburgerProfile {
+    padding: 20px 10px;
+    background-color: #131921;
+    color: white;
+}
+
+.header__hamburgerClearIcon {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.header__hamburgerSign {
+    color: white;
+    margin-top: 10px;
+}
+
+.header__hamburgerList {
+    padding: 10px 20px;
+}
+
+.header__hamburgerList a {
+    color: #111 !important;
+}
+
+.header__hamburgerList > ul {
+    list-style: none;
+}
+
+.header__hamburgerList > ul > li {
+    cursor: pointer;
+    height: 50px;
+    padding-left: 10px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+/* Header */
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.header__hamburger {
+    display: none !important;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+.header__hamburger:hover {
+    opacity: 0.85;
+}
+
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header__search {
+    max-width: 650px;
+    height: 35px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.header__searchInput {
+    height: 100%;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.header__searchIconContainer {
+    cursor: pointer;
+    height: 100%;
+    width: 45px;
+    background: #cd9042;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+}
+
+.header__searchIconContainer:hover {
+    opacity: 0.8;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    color: white;
+}
+
+.header__optionLineOne {
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.header__searchIconBig {
+    display: none !important;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.4s;
+    margin-right: 20px;
+}
+
+.header__searchIconBig:hover {
+    opacity: 0.85;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 700px) {
+    .header__search,
+    .header__nav {
+        display: none;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .header__hamburger,
+    .header__searchIconBig {
+        display: block !important;
+    }
+}

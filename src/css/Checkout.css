@@ -1,0 +1,37 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.checkout__ad {
+    width: 100%;
+    margin-bottom: 10px;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.checkout__title {
+    margin: 0 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+} 
+
+.checkout__empty {
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 700px) {
+    .checkout {
+        flex-direction: column;
+    }
+
+    .checkout__welcomeUser,
+    .checkout__title {
+        text-align: center;
+    }
+
+}

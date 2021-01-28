@@ -1,0 +1,21 @@
+.noUser {
+    position: relative;
+    padding: 20px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noUser__container {
+    width: fit-content;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.noUser__container > h2 {
+    margin-bottom: 10px;
+}

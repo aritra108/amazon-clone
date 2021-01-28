@@ -1,0 +1,42 @@
+.order {
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+}
+
+.order__date {
+    margin-bottom: 10px;
+}
+
+.order__id {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.order__total { 
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .order {
+        text-align: center;
+    }
+
+    .order__id {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 10px;
+    }
+
+    .order__date {
+        margin-bottom: 0;
+    }
+
+    .order__total { 
+        text-align: center;
+    }
+}

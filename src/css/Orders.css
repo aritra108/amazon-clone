@@ -1,0 +1,26 @@
+.orders {
+    padding: 20px 80px;
+    min-height: 50vh;
+
+}
+
+.orders > h1 {
+    margin: 30px 0;
+} 
+
+@media only screen and (max-width: 600px) {
+    .orders {
+        padding: 20px 40px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .orders {
+        padding: 20px;
+    }
+
+    .orders > h1 {
+        text-align: center;
+        margin-top: 0;
+    }
+}
