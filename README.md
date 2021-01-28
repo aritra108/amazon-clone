@@ -27,3 +27,10 @@ An attempt to clone the design and some functionalities of the Amazon Website us
 1. Products in the Home Page can be made dynamic by adding an Admin feature.
 2. The delivery address of the user can be made dynamic.
 3. A nice loader can be added while fetching data from the database.
+
+###### Note:
+The following API keys have been removed from the respective files:
+1. Firestore Key from ```firebase.js```
+2. Cloud Function URL from ```axios.js```
+3. Stripe Publishable Key from ```App.js```
+4. Stripe Secret Key from ```functions/index.js```
