@@ -23,6 +23,7 @@ An attempt to clone the design and some functionalities of the Amazon Website us
 4. Clean state management using React Context API
 5. Scroll Restoration in every new page and smooth scroll
 
-## Limitations
-1. Products in the Home Page are hard coded.
-2. Hard coded delivery address.
+## Scope for Improvement
+1. Products in the Home Page can be made dynamic by adding an Admin feature.
+2. The delivery address of the user can be made dynamic.
+3. A nice loader can be added while fetching data from the database.
